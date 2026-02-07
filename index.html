@@ -1,51 +1,66 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cartilha de Fisioterapia - Pós-operatório Pé Plano</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         :root {
             /* Cores Primárias - Estilo Dra. Laice Cunha */
-            --primary: #B78B4C;           /* Dourado/marrom claro - cor principal do site */
-            --primary-dark: #9A7239;     /* Versão mais escura do dourado */
-            --primary-light: #F5E6D3;    /* Dourado muito claro para backgrounds */
-            --accent: #B78B4C;            /* Mesma cor primária */
-            
+            --primary: #B78B4C;
+            /* Dourado/marrom claro - cor principal do site */
+            --primary-dark: #9A7239;
+            /* Versão mais escura do dourado */
+            --primary-light: #F5E6D3;
+            /* Dourado muito claro para backgrounds */
+            --accent: #B78B4C;
+            /* Mesma cor primária */
+
             /* Cores de Fundo - Baseadas no site */
-            --bg-primary: #F8F8F8;        /* Off-white/cream do site */
-            --bg-secondary: #FFFFFF;      /* Branco puro */
-            --bg-card: #FFFFFF;          /* Fundo de cards branco */
-            
+            --bg-primary: #F8F8F8;
+            /* Off-white/cream do site */
+            --bg-secondary: #FFFFFF;
+            /* Branco puro */
+            --bg-card: #FFFFFF;
+            /* Fundo de cards branco */
+
             /* Cores de Texto - Baseadas no site */
-            --text-primary: #212121;      /* Preto suave usado no site */
-            --text-secondary: #333333;    /* Cinza escuro para corpo */
-            --text-muted: #666666;       /* Cinza médio */
-            --text-light: #999999;       /* Cinza claro */
-            
+            --text-primary: #212121;
+            /* Preto suave usado no site */
+            --text-secondary: #333333;
+            /* Cinza escuro para corpo */
+            --text-muted: #666666;
+            /* Cinza médio */
+            --text-light: #999999;
+            /* Cinza claro */
+
             /* Cores de Destaque */
             --success: #10B981;
             --warning: #F59E0B;
             --error: #EF4444;
             --info: #B78B4C;
-            --whatsapp: #25D366;         /* Verde WhatsApp */
-            
+            --whatsapp: #25D366;
+            /* Verde WhatsApp */
+
             /* Sombras */
-            --shadow-sm: 0 1px 2px rgba(0,0,0,0.05);
-            --shadow-md: 0 4px 6px rgba(0,0,0,0.08);
-            --shadow-lg: 0 10px 15px rgba(0,0,0,0.1);
-            
+            --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+            --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.08);
+            --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
+
             /* Espaçamentos */
             --spacing-xs: 8px;
             --spacing-sm: 16px;
             --spacing-md: 24px;
             --spacing-lg: 32px;
             --spacing-xl: 48px;
-            
+
             /* Bordas */
             --radius-sm: 8px;
             --radius-md: 12px;
@@ -83,7 +98,7 @@
             margin-bottom: var(--spacing-xl);
             box-shadow: var(--shadow-lg);
         }
-        
+
         .header-title {
             font-family: 'Poppins', sans-serif;
         }
@@ -95,7 +110,7 @@
             flex-wrap: wrap;
             gap: var(--spacing-md);
         }
-        
+
         .header-logo {
             margin-bottom: var(--spacing-md);
             display: flex;
@@ -103,7 +118,7 @@
             justify-content: center;
             padding: var(--spacing-sm) 0;
         }
-        
+
         .header-logo img {
             max-height: 100px;
             max-width: 300px;
@@ -111,7 +126,7 @@
             height: auto;
             object-fit: contain;
         }
-        
+
         @media (max-width: 768px) {
             .header-logo img {
                 max-height: 70px;
@@ -273,8 +288,13 @@
             color: var(--primary);
             font-size: 20px;
         }
-        
-        h1, h2, h3, h4, h5, h6 {
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
             font-family: 'Poppins', sans-serif;
         }
 
@@ -308,7 +328,7 @@
             color: var(--primary);
             margin-right: var(--spacing-xs);
         }
-        
+
         .exercise-video a {
             color: var(--primary);
             text-decoration: none;
@@ -322,14 +342,14 @@
             border-radius: var(--radius-sm);
             transition: all 0.3s ease;
         }
-        
+
         .exercise-video a:hover {
             background: var(--primary);
             color: white;
             transform: translateY(-2px);
             box-shadow: var(--shadow-sm);
         }
-        
+
         .exercise-video a i {
             color: inherit;
             margin: 0;
@@ -474,7 +494,7 @@
             font-size: 20px;
             margin-top: 2px;
         }
-        
+
         .contact-item strong {
             font-family: 'Poppins', sans-serif;
         }
@@ -509,7 +529,7 @@
         .footer p {
             margin-bottom: var(--spacing-xs);
         }
-        
+
         /* Botão WhatsApp Flutuante */
         .whatsapp-float {
             position: fixed;
@@ -521,7 +541,7 @@
             align-items: center;
             gap: 8px;
         }
-        
+
         .whatsapp-button {
             width: 60px;
             height: 60px;
@@ -537,12 +557,12 @@
             color: white;
             font-size: 32px;
         }
-        
+
         .whatsapp-button:hover {
             transform: scale(1.1);
             box-shadow: 0 6px 20px rgba(37, 211, 102, 0.6);
         }
-        
+
         .whatsapp-label {
             background: var(--text-primary);
             color: white;
@@ -554,19 +574,19 @@
             box-shadow: var(--shadow-md);
             font-family: 'Poppins', sans-serif;
         }
-        
+
         @media (max-width: 768px) {
             .whatsapp-float {
                 bottom: 15px;
                 right: 15px;
             }
-            
+
             .whatsapp-button {
                 width: 56px;
                 height: 56px;
                 font-size: 28px;
             }
-            
+
             .whatsapp-label {
                 font-size: 11px;
                 padding: 5px 10px;
@@ -628,6 +648,7 @@
         }
     </style>
 </head>
+
 <body>
     <div class="container">
         <!-- Cabeçalho -->
@@ -658,7 +679,7 @@
             </h2>
             <p>
                 <strong>Pós-operatório de Cirurgia de Pé Plano</strong><br>
-                Esta cartilha contém exercícios específicos para a fase de reabilitação pós-operatória de pé plano. 
+                Esta cartilha contém exercícios específicos para a fase de reabilitação pós-operatória de pé plano.
                 Os exercícios são progressivos e devem ser realizados conforme orientação médica e fisioterapêutica.
                 <strong>Paciente: Lucas</strong>
             </p>
@@ -683,16 +704,21 @@
                     </h3>
                     <div class="exercise-description">
                         <p><strong>Como fazer:</strong></p>
-                        <p>Este exercício é fundamental para prevenir aderências e melhorar a qualidade da cicatriz após a cirurgia. Siga os passos abaixo:</p>
+                        <p>Este exercício é fundamental para prevenir aderências e melhorar a qualidade da cicatriz após
+                            a cirurgia. Siga os passos abaixo:</p>
                         <ul>
                             <li>Lave bem as mãos antes de iniciar.</li>
                             <li>Com os dedos indicador e polegar, segure suavemente a pele ao redor da cicatriz.</li>
                             <li>Faça movimentos circulares suaves sobre a cicatriz, aplicando uma pressão leve.</li>
-                            <li>Mova a pele em diferentes direções: para cima, para baixo, para os lados e em círculos.</li>
+                            <li>Mova a pele em diferentes direções: para cima, para baixo, para os lados e em círculos.
+                            </li>
                             <li>Realize este procedimento por 2 a 4 minutos.</li>
-                            <li>Faça este exercício 2 vezes ao dia, preferencialmente após o banho quando a pele está mais macia.</li>
+                            <li>Faça este exercício 2 vezes ao dia, preferencialmente após o banho quando a pele está
+                                mais macia.</li>
                         </ul>
-                        <p><strong>Importante:</strong> A pressão deve ser suave, não deve causar dor intensa. Se a cicatriz ainda estiver com pontos ou muito sensível, aguarde a liberação médica ou reduza a intensidade do movimento.</p>
+                        <p><strong>Importante:</strong> A pressão deve ser suave, não deve causar dor intensa. Se a
+                            cicatriz ainda estiver com pontos ou muito sensível, aguarde a liberação médica ou reduza a
+                            intensidade do movimento.</p>
                     </div>
                     <div class="exercise-specs">
                         <div class="exercise-specs-item">
@@ -718,22 +744,26 @@
                         Mobilização do Hálux (Manual)
                     </h3>
                     <div class="exercise-video">
-                        <a href="https://www.youtube.com/watch?v=1QhIqxOhq2w&pp=ygUuRXhlcmNpc2VzIGZvciBCaWcgVG9lIEZvbGxvd2luZyBCdW5pb24gU3VyZ2VyeQ%3D%3D" target="_blank" rel="noopener">
+                        <a href="https://www.youtube.com/watch?v=1QhIqxOhq2w&pp=ygUuRXhlcmNpc2VzIGZvciBCaWcgVG9lIEZvbGxvd2luZyBCdW5pb24gU3VyZ2VyeQ%3D%3D"
+                            target="_blank" rel="noopener">
                             <i class="fab fa-youtube"></i> Assistir no YouTube
                         </a>
                     </div>
                     <div class="exercise-description">
                         <p><strong>Como fazer:</strong></p>
-                        <p>Este exercício ajuda a recuperar a mobilidade do pé após a cirurgia. Siga os passos abaixo:</p>
+                        <p>Este exercício ajuda a recuperar a mobilidade do pé após a cirurgia. Siga os passos abaixo:
+                        </p>
                         <ul>
                             <li>Sente-se confortavelmente em uma cadeira.</li>
                             <li>Com a mão oposta, segure gentilmente o pé operado.</li>
-                            <li>Mova o pé suavemente em diferentes direções: para cima (flexão dorsal), para baixo (flexão plantar), para os lados e em círculos.</li>
+                            <li>Mova o pé suavemente em diferentes direções: para cima (flexão dorsal), para baixo
+                                (flexão plantar), para os lados e em círculos.</li>
                             <li>Mantenha cada posição por 30 a 60 segundos.</li>
                             <li>Repita esse movimento por 5 a 6 minutos no total.</li>
                             <li>Faça este exercício 2 vezes por dia.</li>
                         </ul>
-                        <p><strong>Importante:</strong> Não force! O movimento deve ser suave e controlado. Se sentir dor, pare e consulte seu médico.</p>
+                        <p><strong>Importante:</strong> Não force! O movimento deve ser suave e controlado. Se sentir
+                            dor, pare e consulte seu médico.</p>
                     </div>
                     <div class="exercise-specs">
                         <div class="exercise-specs-item">
@@ -765,7 +795,8 @@
                     </div>
                     <div class="exercise-description">
                         <p><strong>Como fazer:</strong></p>
-                        <p>Este exercício trabalha a flexibilidade e mobilidade do pé e da parte da frente do pé. Assista ao vídeo para ver as diferentes formas de fazer este exercício.</p>
+                        <p>Este exercício trabalha a flexibilidade e mobilidade do pé e da parte da frente do pé.
+                            Assista ao vídeo para ver as diferentes formas de fazer este exercício.</p>
                         <ul>
                             <li>Assista ao vídeo de referência para entender as variações de mobilização.</li>
                             <li>Escolha a variação que você consegue fazer com conforto.</li>
@@ -773,7 +804,8 @@
                             <li>Mantenha cada posição de alongamento por 20 a 30 segundos.</li>
                             <li>Repita conforme sua tolerância, sem forçar.</li>
                         </ul>
-                        <p><strong>Dica:</strong> Comece com movimentos mais suaves e vá aumentando a amplitude conforme sua mobilidade melhora.</p>
+                        <p><strong>Dica:</strong> Comece com movimentos mais suaves e vá aumentando a amplitude conforme
+                            sua mobilidade melhora.</p>
                     </div>
                     <div class="exercise-specs">
                         <div class="exercise-specs-item">
@@ -797,17 +829,20 @@
                     </div>
                     <div class="exercise-description">
                         <p><strong>Como fazer:</strong></p>
-                        <p>Este exercício fortalece os pequenos músculos dentro do pé, importantes para a estabilidade. Siga os passos:</p>
+                        <p>Este exercício fortalece os pequenos músculos dentro do pé, importantes para a estabilidade.
+                            Siga os passos:</p>
                         <ul>
                             <li>Sente-se em uma cadeira com os pés descalços.</li>
                             <li>Coloque uma toalha pequena no chão, na frente do pé operado.</li>
                             <li>Posicione o pé sobre a toalha, com os dedos na borda mais distante.</li>
-                            <li>Use apenas os dedos do pé para "amassar" e puxar a toalha em direção ao seu corpo, como se estivesse enrolando a toalha com os dedos.</li>
+                            <li>Use apenas os dedos do pé para "amassar" e puxar a toalha em direção ao seu corpo, como
+                                se estivesse enrolando a toalha com os dedos.</li>
                             <li>Faça 3 a 5 repetições completas (puxar toda a toalha).</li>
                             <li>Descanse um pouco e repita mais 1 a 2 séries.</li>
                             <li>Faça este exercício 1 a 2 vezes por dia.</li>
                         </ul>
-                        <p><strong>Dica:</strong> Se a toalha for muito difícil no início, comece com uma toalha menor ou um lenço.</p>
+                        <p><strong>Dica:</strong> Se a toalha for muito difícil no início, comece com uma toalha menor
+                            ou um lenço.</p>
                     </div>
                     <div class="exercise-specs">
                         <div class="exercise-specs-item">
@@ -833,24 +868,28 @@
                         Garra com Toalha
                     </h3>
                     <div class="exercise-video">
-                        <a href="https://youtube.com/shorts/dyChNLUUn8k?si=K9HtduVZ0At3J-3O" target="_blank" rel="noopener">
+                        <a href="https://youtube.com/shorts/dyChNLUUn8k?si=K9HtduVZ0At3J-3O" target="_blank"
+                            rel="noopener">
                             <i class="fab fa-youtube"></i> Assistir no YouTube
                         </a>
                     </div>
                     <div class="exercise-description">
                         <p><strong>Como fazer:</strong></p>
-                        <p>Este exercício fortalece os músculos intrínsecos do pé e melhora a coordenação dos dedos. Siga os passos:</p>
+                        <p>Este exercício fortalece os músculos intrínsecos do pé e melhora a coordenação dos dedos.
+                            Siga os passos:</p>
                         <ul>
                             <li>Sente-se confortavelmente em uma cadeira com os pés descalços.</li>
                             <li>Coloque uma toalha pequena ou lenço no chão, na frente do pé operado.</li>
                             <li>Posicione o pé sobre a toalha, com os dedos na borda mais distante.</li>
-                            <li>Use apenas os dedos do pé para fazer uma "garra" e puxar a toalha em direção ao seu corpo.</li>
+                            <li>Use apenas os dedos do pé para fazer uma "garra" e puxar a toalha em direção ao seu
+                                corpo.</li>
                             <li>Contraia os dedos como se estivesse tentando agarrar a toalha.</li>
                             <li>Faça 3 a 5 repetições completas (puxar toda a toalha).</li>
                             <li>Descanse 30 segundos e repita mais 1 a 2 séries.</li>
                             <li>Faça este exercício 1 a 2 vezes por dia.</li>
                         </ul>
-                        <p><strong>Dica:</strong> Mantenha o calcanhar apoiado no chão durante todo o movimento. Se sentir dificuldade, comece com uma toalha menor.</p>
+                        <p><strong>Dica:</strong> Mantenha o calcanhar apoiado no chão durante todo o movimento. Se
+                            sentir dificuldade, comece com uma toalha menor.</p>
                     </div>
                     <div class="exercise-specs">
                         <div class="exercise-specs-item">
@@ -876,24 +915,28 @@
                         Extensão Halux
                     </h3>
                     <div class="exercise-video">
-                        <a href="https://youtube.com/shorts/wTjfzpeD1kE?si=ESYVwSDAxjjgF_yn" target="_blank" rel="noopener">
+                        <a href="https://youtube.com/shorts/wTjfzpeD1kE?si=ESYVwSDAxjjgF_yn" target="_blank"
+                            rel="noopener">
                             <i class="fab fa-youtube"></i> Assistir no YouTube
                         </a>
                     </div>
                     <div class="exercise-description">
                         <p><strong>Como fazer:</strong></p>
-                        <p>Este exercício trabalha a mobilidade e força do dedo grande do pé (hálux). Siga os passos:</p>
+                        <p>Este exercício trabalha a mobilidade e força do dedo grande do pé (hálux). Siga os passos:
+                        </p>
                         <ul>
                             <li>Sente-se confortavelmente em uma cadeira com os pés descalços.</li>
                             <li>Mantenha o pé apoiado no chão.</li>
-                            <li>Levante apenas o dedo grande do pé (hálux) em direção ao teto, mantendo os outros dedos no chão.</li>
+                            <li>Levante apenas o dedo grande do pé (hálux) em direção ao teto, mantendo os outros dedos
+                                no chão.</li>
                             <li>Mantenha a posição por 3 a 5 segundos.</li>
                             <li>Volte o dedo à posição inicial lentamente.</li>
                             <li>Faça 10 a 15 repetições.</li>
                             <li>Descanse 30 segundos e repita mais 2 séries (total de 3 séries).</li>
                             <li>Faça este exercício 1 a 2 vezes por dia.</li>
                         </ul>
-                        <p><strong>Dica:</strong> O movimento deve ser isolado apenas no dedo grande. Se for difícil no início, continue tentando, pois melhora com a prática.</p>
+                        <p><strong>Dica:</strong> O movimento deve ser isolado apenas no dedo grande. Se for difícil no
+                            início, continue tentando, pois melhora com a prática.</p>
                     </div>
                     <div class="exercise-specs">
                         <div class="exercise-specs-item">
@@ -919,24 +962,28 @@
                         Flexão Hallux
                     </h3>
                     <div class="exercise-video">
-                        <a href="https://youtube.com/shorts/cNs3i_R4bBk?si=9NX0XgGEjqZBrTyN" target="_blank" rel="noopener">
+                        <a href="https://youtube.com/shorts/cNs3i_R4bBk?si=9NX0XgGEjqZBrTyN" target="_blank"
+                            rel="noopener">
                             <i class="fab fa-youtube"></i> Assistir no YouTube
                         </a>
                     </div>
                     <div class="exercise-description">
                         <p><strong>Como fazer:</strong></p>
-                        <p>Este exercício trabalha a flexão do dedo grande do pé (hálux), importante para a função do pé. Siga os passos:</p>
+                        <p>Este exercício trabalha a flexão do dedo grande do pé (hálux), importante para a função do
+                            pé. Siga os passos:</p>
                         <ul>
                             <li>Sente-se confortavelmente em uma cadeira com os pés descalços.</li>
                             <li>Mantenha o pé apoiado no chão.</li>
-                            <li>Dobre apenas o dedo grande do pé (hálux) em direção ao chão, mantendo os outros dedos no chão.</li>
+                            <li>Dobre apenas o dedo grande do pé (hálux) em direção ao chão, mantendo os outros dedos no
+                                chão.</li>
                             <li>Mantenha a posição por 3 a 5 segundos.</li>
                             <li>Volte o dedo à posição inicial lentamente.</li>
                             <li>Faça 10 a 15 repetições.</li>
                             <li>Descanse 30 segundos e repita mais 2 séries (total de 3 séries).</li>
                             <li>Faça este exercício 1 a 2 vezes por dia.</li>
                         </ul>
-                        <p><strong>Dica:</strong> Tente isolar o movimento apenas no dedo grande. O movimento deve ser controlado e suave.</p>
+                        <p><strong>Dica:</strong> Tente isolar o movimento apenas no dedo grande. O movimento deve ser
+                            controlado e suave.</p>
                     </div>
                     <div class="exercise-specs">
                         <div class="exercise-specs-item">
@@ -983,14 +1030,17 @@
                         <p>Este exercício trabalha o controle e força do pé. Siga os passos:</p>
                         <ul>
                             <li>Sente-se ou fique em pé com os pés descalços no chão.</li>
-                            <li>Primeiro movimento: levante a parte da frente do pé (antepé), mantendo o calcanhar no chão.</li>
+                            <li>Primeiro movimento: levante a parte da frente do pé (antepé), mantendo o calcanhar no
+                                chão.</li>
                             <li>Segure por 2 segundos e abaixe.</li>
-                            <li>Segundo movimento: agora levante o calcanhar, mantendo a parte da frente do pé no chão.</li>
+                            <li>Segundo movimento: agora levante o calcanhar, mantendo a parte da frente do pé no chão.
+                            </li>
                             <li>Segure por 2 segundos e abaixe.</li>
                             <li>Faça 10 a 15 repetições de cada movimento.</li>
                             <li>Descanse 30 segundos e repita mais 2 a 3 séries.</li>
                         </ul>
-                        <p><strong>Dica:</strong> No início pode ser difícil separar os movimentos. Continue tentando, pois isso melhora com a prática.</p>
+                        <p><strong>Dica:</strong> No início pode ser difícil separar os movimentos. Continue tentando,
+                            pois isso melhora com a prática.</p>
                     </div>
                     <div class="exercise-specs">
                         <div class="exercise-specs-item">
@@ -1013,17 +1063,20 @@
                     </h3>
                     <div class="exercise-description">
                         <p><strong>Como fazer:</strong></p>
-                        <p>Este exercício fortalece a panturrilha e melhora a estabilidade do tornozelo. Siga os passos:</p>
+                        <p>Este exercício fortalece a panturrilha e melhora a estabilidade do tornozelo. Siga os passos:
+                        </p>
                         <ul>
                             <li>Fique em pé, segurando-se em uma cadeira ou parede para ter apoio e equilíbrio.</li>
-                            <li>Com os dois pés apoiados no chão, suba devagar na ponta dos pés, como se estivesse tentando ficar mais alto.</li>
+                            <li>Com os dois pés apoiados no chão, suba devagar na ponta dos pés, como se estivesse
+                                tentando ficar mais alto.</li>
                             <li>Mantenha essa posição na ponta dos pés por 3 segundos.</li>
                             <li>Desça lentamente até os calcanhares tocarem o chão novamente.</li>
                             <li>Faça 10 a 15 repetições.</li>
                             <li>Descanse 30 segundos e repita mais 2 a 3 séries.</li>
                             <li>Conforme você melhora, pode tentar fazer com mais peso ou segurando menos no apoio.</li>
                         </ul>
-                        <p><strong>Importante:</strong> Faça o movimento devagar e controlado. Se sentir dor no pé operado, reduza a amplitude do movimento.</p>
+                        <p><strong>Importante:</strong> Faça o movimento devagar e controlado. Se sentir dor no pé
+                            operado, reduza a amplitude do movimento.</p>
                     </div>
                     <div class="exercise-specs">
                         <div class="exercise-specs-item">
@@ -1049,17 +1102,20 @@
                         Crescer Arco Plantar
                     </h3>
                     <div class="exercise-video">
-                        <a href="https://youtube.com/shorts/WxgbbcvdT94?si=uiuVMFTivkJWnS_m" target="_blank" rel="noopener">
+                        <a href="https://youtube.com/shorts/WxgbbcvdT94?si=uiuVMFTivkJWnS_m" target="_blank"
+                            rel="noopener">
                             <i class="fab fa-youtube"></i> Assistir no YouTube
                         </a>
                     </div>
                     <div class="exercise-description">
                         <p><strong>Como fazer:</strong></p>
-                        <p>Este exercício fortalece os músculos que sustentam o arco do pé e melhora a estabilidade. Siga os passos:</p>
+                        <p>Este exercício fortalece os músculos que sustentam o arco do pé e melhora a estabilidade.
+                            Siga os passos:</p>
                         <ul>
                             <li>Sente-se ou fique em pé com os pés descalços no chão.</li>
                             <li>Mantenha os dedos relaxados.</li>
-                            <li>Contraia os músculos da sola do pé, tentando "crescer" o arco plantar (elevar a parte interna do pé).</li>
+                            <li>Contraia os músculos da sola do pé, tentando "crescer" o arco plantar (elevar a parte
+                                interna do pé).</li>
                             <li>Mantenha o calcanhar e os dedos apoiados no chão durante o movimento.</li>
                             <li>Mantenha a contração por 5 a 10 segundos.</li>
                             <li>Relaxe e repita.</li>
@@ -1067,7 +1123,8 @@
                             <li>Descanse 30 segundos e repita mais 2 séries (total de 3 séries).</li>
                             <li>Faça este exercício 1 a 2 vezes por dia.</li>
                         </ul>
-                        <p><strong>Dica:</strong> O movimento deve ser sutil. Você deve sentir uma leve elevação do arco do pé sem mover os dedos ou o calcanhar.</p>
+                        <p><strong>Dica:</strong> O movimento deve ser sutil. Você deve sentir uma leve elevação do arco
+                            do pé sem mover os dedos ou o calcanhar.</p>
                     </div>
                     <div class="exercise-specs">
                         <div class="exercise-specs-item">
@@ -1099,19 +1156,25 @@
                     </div>
                     <div class="exercise-description">
                         <p><strong>Como fazer:</strong></p>
-                        <p>Este exercício fortalece os músculos abdutores do quadril, importantes para o alinhamento e estabilidade. Siga os passos:</p>
+                        <p>Este exercício fortalece os músculos abdutores do quadril, importantes para o alinhamento e
+                            estabilidade. Siga os passos:</p>
                         <ul>
-                            <li>Deite-se de lado sobre um colchonete ou cama, com a perna do lado que está deitado dobrada para dar estabilidade.</li>
-                            <li>A perna de cima (a que vai fazer o exercício) deve estar esticada e alinhada com o corpo.</li>
+                            <li>Deite-se de lado sobre um colchonete ou cama, com a perna do lado que está deitado
+                                dobrada para dar estabilidade.</li>
+                            <li>A perna de cima (a que vai fazer o exercício) deve estar esticada e alinhada com o
+                                corpo.</li>
                             <li>Mantenha o tronco reto e não deixe o corpo rolar para frente ou para trás.</li>
-                            <li>Levante a perna de cima devagar, mantendo-a esticada, até sentir o trabalho na lateral do quadril.</li>
+                            <li>Levante a perna de cima devagar, mantendo-a esticada, até sentir o trabalho na lateral
+                                do quadril.</li>
                             <li>Mantenha a perna levantada por 2 segundos.</li>
-                            <li>Desça a perna lentamente até quase tocar a perna de baixo, mas sem relaxar completamente.</li>
+                            <li>Desça a perna lentamente até quase tocar a perna de baixo, mas sem relaxar
+                                completamente.</li>
                             <li>Faça 15 repetições.</li>
                             <li>Descanse 30 segundos e repita mais 2 séries (total de 3 séries de 15 repetições).</li>
                             <li>Depois, vire para o outro lado e faça o mesmo com a outra perna.</li>
                         </ul>
-                        <p><strong>Dica:</strong> Mantenha o pé apontado para frente (não gire o pé para cima) durante todo o movimento. Se sentir dor no quadril, reduza a altura da elevação.</p>
+                        <p><strong>Dica:</strong> Mantenha o pé apontado para frente (não gire o pé para cima) durante
+                            todo o movimento. Se sentir dor no quadril, reduza a altura da elevação.</p>
                     </div>
                     <div class="exercise-specs">
                         <div class="exercise-specs-item">
@@ -1143,9 +1206,11 @@
                     </div>
                     <div class="exercise-description">
                         <p><strong>Como fazer:</strong></p>
-                        <p>Este exercício fortalece os músculos do glúteo e da parte posterior da coxa, importantes para a estabilidade do quadril e alinhamento postural. Siga os passos:</p>
+                        <p>Este exercício fortalece os músculos do glúteo e da parte posterior da coxa, importantes para
+                            a estabilidade do quadril e alinhamento postural. Siga os passos:</p>
                         <ul>
-                            <li>Deite-se de costas sobre um colchonete ou cama, com os joelhos dobrados e os pés apoiados no chão.</li>
+                            <li>Deite-se de costas sobre um colchonete ou cama, com os joelhos dobrados e os pés
+                                apoiados no chão.</li>
                             <li>Mantenha os braços ao lado do corpo ou cruzados sobre o peito.</li>
                             <li>Contraia os músculos do glúteo e do abdômen.</li>
                             <li>Levante o quadril devagar, formando uma "ponte" com o corpo.</li>
@@ -1156,7 +1221,8 @@
                             <li>Descanse 30 segundos e repita mais 2 séries (total de 3 séries).</li>
                             <li>Faça este exercício 1 a 2 vezes por dia.</li>
                         </ul>
-                        <p><strong>Dica:</strong> Mantenha o movimento controlado. Não arquee demais as costas. Se sentir dor no pé operado, reduza a amplitude do movimento ou faça com mais cuidado.</p>
+                        <p><strong>Dica:</strong> Mantenha o movimento controlado. Não arquee demais as costas. Se
+                            sentir dor no pé operado, reduza a amplitude do movimento ou faça com mais cuidado.</p>
                     </div>
                     <div class="exercise-specs">
                         <div class="exercise-specs-item">
@@ -1173,46 +1239,56 @@
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-                    <div class="exercise-description">
-                        <p><strong>Como fazer:</strong></p>
-                        <p>Este exercício fortalece os músculos do quadril e glúteos, o que ajuda a melhorar o alinhamento do corpo e reduzir a sobrecarga no pé. Siga os passos:</p>
-                        <ul>
-                            <li>Deite-se de lado sobre um colchonete ou cama, com a perna do lado que está deitado dobrada para dar estabilidade.</li>
-                            <li>A perna de cima (a que vai fazer o exercício) deve estar esticada e alinhada com o corpo.</li>
-                            <li>Mantenha o tronco reto e não deixe o corpo rolar para frente ou para trás.</li>
-                            <li>Levante a perna de cima devagar, mantendo-a esticada, até sentir o trabalho na lateral do quadril.</li>
-                            <li>Mantenha a perna levantada por 2 segundos.</li>
-                            <li>Desça a perna lentamente até quase tocar a perna de baixo, mas sem relaxar completamente.</li>
-                            <li>Faça 15 repetições.</li>
-                            <li>Descanse 30 segundos e repita mais 2 séries (total de 3 séries de 15 repetições).</li>
-                            <li>Depois, vire para o outro lado e faça o mesmo com a outra perna.</li>
-                        </ul>
-                        <p><strong>Dica:</strong> Mantenha o pé apontado para frente (não gire o pé para cima) durante todo o movimento. Se sentir dor no quadril, reduza a altura da elevação.</p>
-                    </div>
+                <!-- Exercício 13: Agachamento -->
+                <div class="exercise-card">
+                    <div class="exercise-number">13</div>
+                    <h3 class="exercise-title">
+                        <i class="fas fa-chair exercise-icon"></i>
+                        Agachamento (Squat)
+                    </h3>
                     <div class="exercise-video">
-                        <a href="https://www.youtube.com/results?search_query=Side+Lying+Hip+Abduction" target="_blank" rel="noopener">
+                        <a href="https://www.youtube.com/results?search_query=agachamento+livre+correto" target="_blank"
+                            rel="noopener">
                             <i class="fab fa-youtube"></i> Assistir no YouTube
                         </a>
+                    </div>
+                    <div class="exercise-description">
+                        <p><strong>Como fazer:</strong></p>
+                        <p>Este exercício fortalece as pernas e glúteos, essenciais para caminhar e subir escadas. Siga
+                            os passos:</p>
+                        <ul>
+                            <li>Fique em pé com os pés afastados na largura dos ombros.</li>
+                            <li>Estenda os braços para frente para ajudar no equilíbrio.</li>
+                            <li>Dobre os joelhos e desça o quadril como se fosse sentar em uma cadeira invisível.</li>
+                            <li>Mantenha as costas retas e o peito aberto.</li>
+                            <li>Não deixe os joelhos passarem da ponta dos pés.</li>
+                            <li>Desça até onde for confortável e conseguir manter a postura.</li>
+                            <li>Volte à posição inicial empurrando o chão com os calcanhares.</li>
+                            <li>Faça 10 a 15 repetições.</li>
+                            <li>Descanse 30 segundos e repita mais 2 séries (total de 3 séries).</li>
+                        </ul>
+                        <p><strong>Dica:</strong> Se tiver dificuldade, comece fazendo o movimento de sentar e levantar
+                            de uma cadeira de verdade.</p>
                     </div>
                     <div class="exercise-specs">
                         <div class="exercise-specs-item">
                             <i class="fas fa-redo"></i>
-                            <span>15 repetições</span>
+                            <span>10-15 repetições</span>
                         </div>
                         <div class="exercise-specs-item">
                             <i class="fas fa-layer-group"></i>
                             <span>3 séries</span>
                         </div>
                         <div class="exercise-specs-item">
-                            <i class="fas fa-bed"></i>
-                            <span>Decúbito lateral</span>
+                            <i class="fas fa-chair"></i>
+                            <span>Em pé/Cadeira</span>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+
+
 
         <!-- Avisos Importantes -->
         <section class="warnings-card">
@@ -1222,15 +1298,15 @@
             </h3>
             <ul class="warnings-list">
                 <li>
-                    <strong>Em caso de aumento súbito de dor, calor, vermelhidão ou abertura de pontos:</strong> 
+                    <strong>Em caso de aumento súbito de dor, calor, vermelhidão ou abertura de pontos:</strong>
                     Interrompa os exercícios imediatamente e comunique seu cirurgião.
                 </li>
                 <li>
-                    <strong>Não tente forçar o pé a posições extremas:</strong> O objetivo é ganho gradual de 
+                    <strong>Não tente forçar o pé a posições extremas:</strong> O objetivo é ganho gradual de
                     mobilidade e força, não "voltar tudo de uma vez".
                 </li>
                 <li>
-                    <strong>Exercícios de quadril podem ser feitos bilateralmente:</strong> Pois são realizados deitado 
+                    <strong>Exercícios de quadril podem ser feitos bilateralmente:</strong> Pois são realizados deitado
                     e não sobrecarregam diretamente o pé.
                 </li>
             </ul>
@@ -1246,35 +1322,35 @@
                 <li>
                     <i class="fas fa-check-circle"></i>
                     <div>
-                        <strong>Progressão Gradual:</strong> Realize os exercícios conforme sua tolerância, 
+                        <strong>Progressão Gradual:</strong> Realize os exercícios conforme sua tolerância,
                         aumentando gradualmente a intensidade e duração.
                     </div>
                 </li>
                 <li>
                     <i class="fas fa-check-circle"></i>
                     <div>
-                        <strong>Frequência:</strong> Siga as orientações de frequência indicadas para cada exercício. 
+                        <strong>Frequência:</strong> Siga as orientações de frequência indicadas para cada exercício.
                         Não ultrapasse as séries e repetições recomendadas sem orientação médica.
                     </div>
                 </li>
                 <li>
                     <i class="fas fa-check-circle"></i>
                     <div>
-                        <strong>Dor:</strong> É normal sentir leve desconforto durante os exercícios, mas não deve haver 
+                        <strong>Dor:</strong> É normal sentir leve desconforto durante os exercícios, mas não deve haver
                         dor intensa. Se a dor aumentar, pare e consulte seu médico.
                     </div>
                 </li>
                 <li>
                     <i class="fas fa-check-circle"></i>
                     <div>
-                        <strong>Consistência:</strong> A regularidade na realização dos exercícios é fundamental para 
+                        <strong>Consistência:</strong> A regularidade na realização dos exercícios é fundamental para
                         uma recuperação adequada.
                     </div>
                 </li>
                 <li>
                     <i class="fas fa-check-circle"></i>
                     <div>
-                        <strong>Equipamentos:</strong> Use roupas confortáveis e tenha uma toalha disponível para os 
+                        <strong>Equipamentos:</strong> Use roupas confortáveis e tenha uma toalha disponível para os
                         exercícios que a requerem.
                     </div>
                 </li>
@@ -1326,8 +1402,8 @@
                     <div>
                         <strong>Endereço</strong>
                         <span>Av. Engenheiro Luís Carlos Berrini, 1748<br>
-                        5° Andar - Cj. 508 - Brooklin<br>
-                        São Paulo - SP, 04571-000</span>
+                            5° Andar - Cj. 508 - Brooklin<br>
+                            São Paulo - SP, 04571-000</span>
                     </div>
                 </div>
                 <div class="contact-item">
@@ -1343,7 +1419,8 @@
         <!-- Rodapé -->
         <footer class="footer">
             <p><strong>Cartilha de Fisioterapia - Pós-operatório Pé Plano</strong></p>
-            <p>Este material é de uso exclusivo do paciente e deve ser seguido conforme orientação médica e fisioterapêutica.</p>
+            <p>Este material é de uso exclusivo do paciente e deve ser seguido conforme orientação médica e
+                fisioterapêutica.</p>
             <p style="margin-top: 12px;">
                 <strong>Dra. Laice Cunha</strong> - Cirurgiã de Pé e Tornozelo<br>
                 <strong>Vitor Vaz</strong> - Fisioterapeuta (CREFITO 3: 297100)
@@ -1360,33 +1437,32 @@
     <script>
         // Atualizar data atual
         const now = new Date();
-        const dateStr = now.toLocaleDateString('pt-BR', { 
-            day: '2-digit', 
-            month: '2-digit', 
-            year: 'numeric' 
+        const dateStr = now.toLocaleDateString('pt-BR', {
+            day: '2-digit',
+            month: '2-digit',
+            year: 'numeric'
         });
-        
+
         const dateElement = document.getElementById('current-date');
         const footerDateElement = document.getElementById('footer-date');
-        
+
         if (dateElement) {
             dateElement.textContent = dateStr;
         }
-        
+
         if (footerDateElement) {
             footerDateElement.textContent = dateStr;
         }
     </script>
-    
+
     <!-- Botão WhatsApp Flutuante -->
     <div class="whatsapp-float">
-        <a href="https://wa.me/5511983437846?text=Olá!%20Gostaria%20de%20falar%20com%20o%20fisioterapeuta" 
-           target="_blank" 
-           class="whatsapp-button" 
-           aria-label="Falar com fisioterapeuta no WhatsApp">
+        <a href="https://wa.me/5511983437846?text=Olá!%20Gostaria%20de%20falar%20com%20o%20fisioterapeuta"
+            target="_blank" class="whatsapp-button" aria-label="Falar com fisioterapeuta no WhatsApp">
             <i class="fab fa-whatsapp"></i>
         </a>
         <span class="whatsapp-label">Falar com fisioterapeuta</span>
     </div>
 </body>
+
 </html>
